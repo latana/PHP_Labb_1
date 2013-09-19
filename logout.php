@@ -6,7 +6,7 @@
 	
 	session_start();
 	
-	$_SESSION['outMessage'] = "Du är nu utloggad";
+	$_SESSION['outMessage'] = "<p>Du är nu utloggad</p>";
 	
 	header('Location: index.php');
 	
